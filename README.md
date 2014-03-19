@@ -28,8 +28,10 @@ To index log files copy the files into the folder /logs/r4/ or /logs/r5/ for Orc
 
 Note that for Orchestra R4 the wrapper logs are expected.
 
-A sample dashboard is available and can be loaded via the Logstash [Kabana](http://www.elasticsearch.org/overview/kibana/) user interface by selecting open -> advanced
+A sample dashboard is available and can be loaded via the Logstash [Kabana](http://www.elasticsearch.org/overview/kibana/) user interface by selecting load -> advanced
 and import the file /files/orchestra-logs-dashboard.json.
+
+![orchestra-kabana](orchestra-kabana.png)
 
 The [Elasticsearch Curator](http://www.elasticsearch.org/blog/curator-tending-your-time-series-indices/) script is also installed to make 
 it easier to purge indexes from Elasticsearch.
